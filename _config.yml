@@ -6,15 +6,15 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Jackie Keiser
+tagline:          "Where Jackie tries to do everything all at once and doesn't mess it up"
+description:      "Where Jackie tries to do everything all at once and doesn't mess it up"
+url:              http://www.jackiekeiser.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Jackie Keiser'
+  url:            https://twitter.com/mongoosedoom
 
 paginate:         5
 
