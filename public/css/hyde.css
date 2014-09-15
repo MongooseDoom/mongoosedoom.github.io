@@ -56,8 +56,8 @@ html {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
-  background-color: #202020;
+  color: #F8F8F2;
+  background-color: #282828;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -69,18 +69,32 @@ html {
     text-align: left;
   }
 }
+.lead {
+  font-size: 1rem;
+}
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  color: rgb(174, 129, 255);
+  font-family: "PT Mono", serif;
 }
 
 /* About section */
+.sidebar-image {
+  border-radius: 100%;
+  max-width: 200px;
+  margin: 0 auto 1rem;
+}
+
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-family: "PT Mono", serif;
+  font-size: 1.5rem;
+}
+
+.sidebar h1 a {
+  color: rgb(249, 38, 114);
 }
 
 /* Sidebar nav */
@@ -94,8 +108,11 @@ a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
-.sidebar-nav-item.active {
-  font-weight: bold;
+.sidebar-nav-item.active:before {
+  content: "*";
+}
+.sidebar-nav-item.active:after {
+  content: "*";
 }
 
 /* Sticky sidebar
