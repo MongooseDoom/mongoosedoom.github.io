@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highlighter:      true
 
 # Permalinks
 permalink:        pretty
@@ -24,3 +24,5 @@ sidebarImage:     jackie.jpg
 
 github:
   repo:           https://github.com/poole/hyde
+
+exclude:          [Gruntfile.js, package.json, node_modules]
