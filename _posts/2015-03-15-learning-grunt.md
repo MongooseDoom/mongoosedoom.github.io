@@ -123,7 +123,7 @@ grunt.loadNpmTasks('grunt-contrib-sass');
 
 Now you'll need to configure your task. Check out the readme for each plugin you install. I found that most of the time, I could just copy and paste an example and adjust wanted I needed. Here's the [readme for grunt-contrib-sass](https://www.npmjs.org/package/grunt-contrib-sass).
 
-{% highlight linenos js %}
+{% highlight js %}
 grunt.initConfig({
     ...
     sass: {                                   // Task
